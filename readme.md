@@ -19,4 +19,9 @@ $ git commit -m "Ejercicio básico"
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 readme.md
 
+José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~/campusciff (master)
+$ git add readme.md
+
+
+
 
