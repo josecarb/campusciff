@@ -1,5 +1,7 @@
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~ (master)
-$ git clone git@github.com:josecarb/campusciff.git
+
+### git clone git@github.com:josecarb/campusciff.git
+
 Cloning into 'campusciff'...
 Enter passphrase for key '/c/Users/José Ángel Carballo/.ssh/id_rsa':
 remote: Counting objects: 3, done.
@@ -7,29 +9,29 @@ remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
 Receiving objects: 100% (3/3), done.
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~ (master)
-$ cd campusciff
+### cd campusciff
 
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~/campusciff (master)
-$ git add readme.md
+### git add readme.md
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~/campusciff (master)
-$ git commit -m "Ejercicio básico"
+### git commit -m "Ejercicio básico"
 [master e9c9101] Ejercicio básico
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 readme.md
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~/campusciff (master)
-$ git add readme.md
+### git add readme.md
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~/campusciff (master)
-$ git commit -m "Commit inicial"
+### git commit -m "Commit inicial"
 [master bd3d44c] Commit inicial
  1 file changed, 5 insertions(+)
 
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~/campusciff (master)
-$ git push origin master
+### git push origin master
 Enter passphrase for key '/c/Users/José Ángel Carballo/.ssh/id_rsa':
 Counting objects: 8, done.
 Delta compression using up to 4 threads.
@@ -41,49 +43,50 @@ To github.com:josecarb/campusciff.git
    20dee1e..bd3d44c  master -> master
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~ (master)
-$ cd privada
+### cd privada
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~ (master)
-$ git add "privado.txt"
+### git add "privado.txt"
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~ (master)
-$ git commit -m "Commit inicial"
+### git commit -m "Commit inicial"
 [master bd3d44c] Commit inicial
  1 file changed, 5 insertions(+)
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~/privada (master)
-$ touch .gitignore
+### touch .gitignore
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~/privada (master)
-$ git config --global core.excludesfile ~/.gitignore_global
+### git config --global core.excludesfile ~/.gitignore_global
 
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~ (master)
-$ echo "privado.txt" >> .gitignore
+### echo "privado.txt" >> .gitignore
 
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~ (master)
-$ echo "privada" >> .gitignore
+### echo "privada" >> .gitignore
 
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~ (master)
-$ cd campusciff
+### cd campusciff
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~/campusciff (master)
-$ git add 1.txt
+### git add 1.txt
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~/campusciff (master)
-$ git commit -m "Fichero 1.txt"
+### git commit -m "Fichero 1.txt"
 [master b44ad10] Fichero 1.txt
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 1.txt
 
 
 José Ángel Carballo@LAPTOP-KR38OL89 MINGW64 ~/campusciff (master)
-$ git tag -a v0.1 -m " Versión 0.1"
+### git tag -a v0.1 -m " Versión 0.1"
 
 
-
-
-
+|    Nombre    |     Github     |
+| ------------ | -------------- |
+| Adolfo Sanz  |  asanzdiego    | 
+| Miguel David |  migueldmonzon | 
 
